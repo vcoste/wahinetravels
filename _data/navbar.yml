@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Japan
+  link: /japan
+- name: Oregon
+  link: /oregon

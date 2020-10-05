@@ -1,40 +1,19 @@
 
 <div class="py-5 border-top">
-  <div class="container">
-
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
+  <div class="jumbotron">
+    <div class="mx-auto">
+    <h3> About Me</h3>
     <div class="row">
-
+      <div class="col-sm-4">
+        <img src="/assets/profile_picture/moraga steps_edited.webp" alt="Me!">
+      </div>
       <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
-            </li>
-          {%- endif -%}
-        </ul>
+        I grew up on the islands of Hawai'i, but was lured away by school, and ended up falling in love with the Bay Area.
+        When I was young, I visited Taiwan every year and was fortunate enough to travel to other places of the world with my family.
+        Now I definitely think I have developed a wanderlust, and want to share my experiences with others in case it helps with your travels.
+        Feel free to contact me with any questions, and find me on instagram <a href="https://www.instagram.com/ju_uipo/">@ju_uipo</a>
       </div>
-
-
-      <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
-        </p>
-      </div>
-
     </div>
-
+  </div>
   </div>
 </div>
